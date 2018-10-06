@@ -143,8 +143,8 @@ var mounts = [
 
 
 var bonuses = [
-  { itemName: "bonuses", slots: "", description: "" },
-  { itemName: "mounts", slots: "", description: "" },
+  { itemName: "All bonuses", slots: "", description: "" },
+  { itemName: "All mounts", slots: "", description: "" },
   { itemName: "Vampire's Craving", slots: "AAB", description: "Whenever you perform a Lifesteal, you are healed for 3% of your maximum Hit Points over 4 seconds." },
   { itemName: "Survivor's Blessing", slots: "AAC", description: "Whenever you Deflect an attack, you are healed for 3% of your maximum Hit Points over 4 seconds." },
   { itemName: "Slayer's Redemption", slots: "AAE", description: "Whenever you kill a target, you are healed for 10% of your maximum Hit Points over 5 seconds." },
