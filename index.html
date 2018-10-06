@@ -9,26 +9,32 @@
   <link rel="stylesheet" href="styles.css" />
 </head>
 
-<body>
-  <select id="select" onchange="update()"></select>
-  <span id="slots"></span>
+<body class="centered">
+  <h1>Neverwinter Mount Insignia Bonuses</h1>
+  <p>Select a specific insignia bonus from the dropdown list to see all mounts which have that bonus available.</p>
+  <select id="select" onchange="update()" class="dropdown centered"></select>
+  <p id="slots"></p>
   <div id="description"></div>
   <br>
   <table id="table1" class="table">
-    <tr>
-      <th scope="col">Bonus</th>
-      <th scope="col">Insignia Required</th>
-      <th scope="col">Description</th>
-    </tr>
+    <thead class="thead-dark">
+      <tr>
+        <th scope="col">Bonus</th>
+        <th scope="col">Insignia Required</th>
+        <th scope="col">Description</th>
+      </tr>
+    </thead>
   </table>
   <table id="table2" class="table">
-    <tr>
-      <th scope="col">Mount</th>
-      <th scope="col">Slot 1</th>
-      <th scope="col">Slot 2</th>
-      <th id="slot3" scope="col">Slot 3</th>
-      <th scope="col">Possible Bonuses</th>
-    </tr>
+    <thead class="thead-dark">
+      <tr>
+        <th scope="col">Mount</th>
+        <th scope="col">Slot 1</th>
+        <th scope="col">Slot 2</th>
+        <th id="slot3" scope="col">Slot 3</th>
+        <th scope="col">Possible Bonuses</th>
+      </tr>
+    </thead>
   </table>
 
   <script type="text/javascript" src="scripts.js"></script>
